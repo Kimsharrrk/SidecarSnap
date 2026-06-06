@@ -25,7 +25,7 @@
 
 You're using your iPad as a second screen with Sidecar. You pick it up and move it to the other side of your MacBook. Now you have to manually open **System Settings → Displays → Arrange** and drag the little display icon. Every. Single. Time.
 
-This is 2025. That's unacceptable.
+This is 2026. That's unacceptable.
 
 ### The Solution
 
