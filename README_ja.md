@@ -105,9 +105,10 @@ SidecarSnapはメニューバーに小さなアイコンとして常駐します
 
 ---
 
-## License
+## ライセンス (License)
 
-MIT — 自由に使用、変更、共有してください。
+Copyright © 2026 Kimsharrrk. All rights reserved.  
+個人利用に限り無料で使用できます。無断でのソースコードの修正および再配布は厳しく禁止されています。
 
 ---
 

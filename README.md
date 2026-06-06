@@ -128,7 +128,8 @@ Uses **only public CoreGraphics APIs**. No private frameworks. No kernel extensi
 
 ## License
 
-MIT — free to use, modify, and share.
+Copyright © 2026 Kimsharrrk. All rights reserved.  
+Free for personal use. Modification and redistribution without permission are strictly prohibited.
 
 ---
 

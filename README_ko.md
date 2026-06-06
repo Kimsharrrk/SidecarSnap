@@ -105,9 +105,10 @@ SidecarSnap은 상단 메뉴바에 작게 자리잡습니다.
 
 ---
 
-## License
+## 라이선스 (License)
 
-MIT — 자유롭게 사용, 수정, 배포하세요.
+Copyright © 2026 Kimsharrrk. All rights reserved.  
+개인적인 용도로 무료 사용이 가능합니다. 허가 없는 소스코드의 수정 및 무단 재배포는 엄격히 금지됩니다.
 
 ---
 
