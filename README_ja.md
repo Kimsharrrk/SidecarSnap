@@ -1,3 +1,6 @@
+
+
+
 <div align="center">
 
 <img src="Assets/app_icon_1024.png" width="128" height="128" alt="SidecarSnap Icon">
@@ -14,6 +17,7 @@
 [🇺🇸 English](README.md) | [🇰🇷 한국어](README_ko.md) | **🇯🇵 日本語**
 
 <!-- DRAG_AND_DROP_YOUR_DEMO_VIDEO_OR_GIF_HERE -->
+https://github.com/user-attachments/assets/7e65be61-8682-46ef-acb9-65baf9be9b38
 
 </div>
 
