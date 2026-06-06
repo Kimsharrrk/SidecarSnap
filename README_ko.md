@@ -50,8 +50,12 @@ SidecarSnap은 마우스 커서를 추적합니다. 마우스를 화면 **왼쪽
 ### 📥 설치 방법
 
 **설치 방법 (가장 추천)**
-1. **[SidecarSnap_v1.1.dmg](https://github.com/Kimsharrrk/SidecarSnap/raw/main/SidecarSnap_v1.1.dmg)** 파일을 클릭하여 바로 다운로드합니다. (원클릭 다운로드!)
-2. DMG 파일을 열고, 귀여운 크레파스 배경을 감상하며 앱 아이콘을 `Applications(응용 프로그램)` 폴더로 드래그합니다!
+
+<a href="https://github.com/Kimsharrrk/SidecarSnap/raw/main/SidecarSnap_v1.1.dmg">
+  <img src="Assets/download_badge.png" width="220" alt="macOS용 앱 다운로드">
+</a>
+
+1. DMG 파일을 열고, 귀여운 크레파스 배경을 감상하며 앱 아이콘을 `Applications(응용 프로그램)` 폴더로 드래그합니다!
 3. 앱을 실행하고 초기 설정 가이드를 따라주세요.
 
 ### ⚙️ 초기 설정 (30초 컷)

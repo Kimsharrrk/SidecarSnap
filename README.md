@@ -53,8 +53,12 @@ You'll also see a **Dynamic Island-style black blob** emerge from the bezel. As 
 ### Installation
 
 **Option A — Direct Download** *(recommended)*
-1. Download **[SidecarSnap_v1.1.dmg](https://github.com/Kimsharrrk/SidecarSnap/raw/main/SidecarSnap_v1.1.dmg)** directly (One-click!)
-2. Open the DMG file and drag `SidecarSnap.app` to `/Applications`
+
+<a href="https://github.com/Kimsharrrk/SidecarSnap/raw/main/SidecarSnap_v1.1.dmg">
+  <img src="Assets/download_badge.png" width="220" alt="Download app for macOS">
+</a>
+
+1. Open the DMG file and drag `SidecarSnap.app` to `/Applications`
 3. Open it and follow the setup guide
 
 **Option B — Build from Source**
