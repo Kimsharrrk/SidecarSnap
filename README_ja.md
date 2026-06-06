@@ -50,7 +50,7 @@ SidecarSnapはマウスカーソルを追跡します。マウスを画面の**�
 ### 📥 インストール方法
 
 **インストール手順 (推奨)**
-1. **[SidecarSnap_v1.1.dmg](https://raw.githubusercontent.com/Kimsharrrk/SidecarSnap/main/SidecarSnap_v1.1.dmg)** をクリックして直接ダウンロードします。 (ワンクリック！)
+1. **[SidecarSnap_v1.1.dmg](https://github.com/Kimsharrrk/SidecarSnap/raw/main/SidecarSnap_v1.1.dmg)** をクリックして直接ダウンロードします. (ワンクリック！)
 2. DMGファイルを開き、可愛いクレヨン背景を楽しみながらアプリアイコンを `Applications` フォルダにドラッグします！
 3. アプリを起動し、初期設定ガイドに従ってください。
 
