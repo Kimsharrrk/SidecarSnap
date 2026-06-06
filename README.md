@@ -59,7 +59,18 @@ You'll also see a **Dynamic Island-style black blob** emerge from the bezel. As 
 </a>
 
 1. Open the DMG file and drag `SidecarSnap.app` to `/Applications`
-3. Open it and follow the setup guide
+2. Open it and follow the setup guide
+
+> [!IMPORTANT]
+> **First-time Launch Security Warning**
+> Since this is a free open-source project and not signed with a paid Apple Developer Account ($99/year), macOS will show a warning: **"SidecarSnap is damaged and can't be opened."**
+> 
+> **Don't worry, the app is not damaged!** You can easily open it in 10 seconds without any terminal commands:
+> 1. Click **Cancel** on the warning popup.
+> 2. Open **System Settings ➔ Privacy & Security**.
+> 3. Scroll down to the **Security** section.
+> 4. Click **"Open Anyway"** next to the blocker message.
+> 5. Authenticate with your password / Touch ID. You're good to go! (You only need to do this once).
 
 **Option B — Build from Source**
 ```bash
