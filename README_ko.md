@@ -5,6 +5,7 @@
 # SidecarSnap
 
 **마우스가 화면 끝에 닿으면 → iPad Sidecar가 그쪽으로 자동 배치됩니다.**
+> *애플이 안 만들어서 답답해서 직접 만들었습니다.*
 
 [![macOS](https://img.shields.io/badge/macOS-13.0%2B-blue?logo=apple)](https://www.apple.com/macos/)
 [![Swift](https://img.shields.io/badge/Swift-5.9-orange?logo=swift)](https://swift.org)
@@ -49,7 +50,7 @@ SidecarSnap은 마우스 커서를 추적합니다. 마우스를 화면 **왼쪽
 ### 📥 설치 방법
 
 **설치 방법 (가장 추천)**
-1. 방금 구워진 따끈따끈한 `SidecarSnap_v1.1.dmg` 파일을 다운로드합니다.
+1. **[SidecarSnap_v1.1.dmg](https://raw.githubusercontent.com/Kimsharrrk/SidecarSnap/main/SidecarSnap_v1.1.dmg)** 파일을 클릭하여 바로 다운로드합니다. (원클릭 다운로드!)
 2. DMG 파일을 열고, 귀여운 크레파스 배경을 감상하며 앱 아이콘을 `Applications(응용 프로그램)` 폴더로 드래그합니다!
 3. 앱을 실행하고 초기 설정 가이드를 따라주세요.
 

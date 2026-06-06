@@ -5,11 +5,12 @@
 # SidecarSnap
 
 **Your mouse touches the screen edge → iPad Sidecar snaps to that side. Automatically.**
+> *Apple didn't build this, so I got frustrated and built it myself.*
 
 [![macOS](https://img.shields.io/badge/macOS-13.0%2B-blue?logo=apple)](https://www.apple.com/macos/)
 [![Swift](https://img.shields.io/badge/Swift-5.9-orange?logo=swift)](https://swift.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Release](https://img.shields.io/badge/Release-v1.0.0-purple)](https://github.com/yourusername/SidecarSnap/releases)
+[![Release](https://img.shields.io/badge/Release-v1.1-purple)](https://github.com/Kimsharrrk/SidecarSnap/releases/latest)
 [![Language](https://img.shields.io/badge/Language-EN%20%7C%20KO%20%7C%20JA-blueviolet)](#)
 
 **🇺🇸 English** | [🇰🇷 한국어](README_ko.md) | [🇯🇵 日本語](README_ja.md)
@@ -52,13 +53,13 @@ You'll also see a **Dynamic Island-style black blob** emerge from the bezel. As 
 ### Installation
 
 **Option A — Direct Download** *(recommended)*
-1. Download `SidecarSnap.zip` from [Releases](https://github.com/yourusername/SidecarSnap/releases)
-2. Unzip and move `SidecarSnap.app` to `/Applications`
+1. Download **[SidecarSnap_v1.1.dmg](https://raw.githubusercontent.com/Kimsharrrk/SidecarSnap/main/SidecarSnap_v1.1.dmg)** directly (One-click!)
+2. Open the DMG file and drag `SidecarSnap.app` to `/Applications`
 3. Open it and follow the setup guide
 
 **Option B — Build from Source**
 ```bash
-git clone https://github.com/yourusername/SidecarSnap.git
+git clone https://github.com/Kimsharrrk/SidecarSnap.git
 cd SidecarSnap
 ./build.sh
 open SidecarSnap.app

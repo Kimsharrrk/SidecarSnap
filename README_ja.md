@@ -5,6 +5,7 @@
 # SidecarSnap
 
 **マウスが画面の端に触れると → iPad Sidecarがそちら側に自動配置されます。**
+> *Appleが作ってくれないので、もどかしくて自分で作りました。*
 
 [![macOS](https://img.shields.io/badge/macOS-13.0%2B-blue?logo=apple)](https://www.apple.com/macos/)
 [![Swift](https://img.shields.io/badge/Swift-5.9-orange?logo=swift)](https://swift.org)
@@ -49,7 +50,7 @@ SidecarSnapはマウスカーソルを追跡します。マウスを画面の**�
 ### 📥 インストール方法
 
 **インストール手順 (推奨)**
-1. 完成したばかりの `SidecarSnap_v1.1.dmg` をダウンロードします。
+1. **[SidecarSnap_v1.1.dmg](https://raw.githubusercontent.com/Kimsharrrk/SidecarSnap/main/SidecarSnap_v1.1.dmg)** をクリックして直接ダウンロードします。 (ワンクリック！)
 2. DMGファイルを開き、可愛いクレヨン背景を楽しみながらアプリアイコンを `Applications` フォルダにドラッグします！
 3. アプリを起動し、初期設定ガイドに従ってください。
 
