@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/bf89db75-d60e-4605-b541-366aed40b3dd
 <div align="center">
 
 <img src="Assets/app_icon_1024.png" width="128" height="128" alt="SidecarSnap Icon">
