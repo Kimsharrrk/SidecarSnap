@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/bf89db75-d60e-4605-b541-366aed40b3dd
 <div align="center">
 
 <img src="Assets/app_icon_1024.png" width="128" height="128" alt="SidecarSnap Icon">
@@ -5,6 +7,9 @@
 # SidecarSnap
 
 **Your mouse touches the screen edge → iPad Sidecar snaps to that side. Automatically.**
+
+
+
 > *Apple didn't build this, so I got frustrated and built it myself.*
 
 [![macOS](https://img.shields.io/badge/macOS-13.0%2B-blue?logo=apple)](https://www.apple.com/macos/)
@@ -15,7 +20,8 @@
 
 **🇺🇸 English** | [🇰🇷 한국어](README_ko.md) | [🇯🇵 日本語](README_ja.md)
 
-<!-- DRAG_AND_DROP_YOUR_DEMO_VIDEO_OR_GIF_HERE -->
+https://github.com/user-attachments/assets/757eaeb9-01a1-434d-98f6-846f94811ad4
+
 
 </div>
 
