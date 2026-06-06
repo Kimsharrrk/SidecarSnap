@@ -1,0 +1,125 @@
+<div align="center">
+
+<img src="Assets/app_icon_1024.png" width="128" height="128" alt="SidecarSnap Icon">
+
+# SidecarSnap
+
+**Your mouse touches the screen edge → iPad Sidecar snaps to that side. Automatically.**
+
+[![macOS](https://img.shields.io/badge/macOS-13.0%2B-blue?logo=apple)](https://www.apple.com/macos/)
+[![Swift](https://img.shields.io/badge/Swift-5.9-orange?logo=swift)](https://swift.org)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-purple)](https://github.com/yourusername/SidecarSnap/releases)
+[![Language](https://img.shields.io/badge/Language-EN%20%7C%20KO%20%7C%20JA-blueviolet)](#)
+
+**🇺🇸 English** | [🇰🇷 한국어](README_ko.md) | [🇯🇵 日本語](README_ja.md)
+
+</div>
+
+---
+
+## 🇺🇸 English
+
+### The Problem
+
+You're using your iPad as a second screen with Sidecar. You pick it up and move it to the other side of your MacBook. Now you have to manually open **System Settings → Displays → Arrange** and drag the little display icon. Every. Single. Time.
+
+This is 2025. That's unacceptable.
+
+### The Solution
+
+SidecarSnap watches your mouse cursor. When you push it against the **left or right edge** of your screen for half a second, the Sidecar display **automatically jumps** to that side.
+
+```
+Push mouse →  LEFT  edge (0.5s)  =  iPad arranges to the LEFT  ◀
+Push mouse →  RIGHT edge (0.5s)  =  iPad arranges to the RIGHT ▶
+```
+
+You'll also see a **Dynamic Island-style black blob** emerge from the bezel. As you hold the mouse, it grows, giving you a smooth visual timer.
+
+### Features
+
+| Feature | Description |
+|---|---|
+| 🖱️ Auto-Arrange | Mouse edge detection → instant Sidecar repositioning |
+| 💧 Dynamic Blob | Smooth, bezel-attached indicator shows timer progress |
+| 🌐 3 Languages | English, 한국어, 日本語 — switchable from menu |
+| 👻 Hide Icon | Hide the ugly menu bar icon with one click! |
+| 🚀 Launch at Login | Starts automatically with your Mac |
+| ⚙️ Adjustable Delay | 0.3s / 0.5s (default) / 1.0s |
+| 📱 Manual Control | `[` and `]` keyboard shortcuts |
+
+### Installation
+
+**Option A — Direct Download** *(recommended)*
+1. Download `SidecarSnap.zip` from [Releases](https://github.com/yourusername/SidecarSnap/releases)
+2. Unzip and move `SidecarSnap.app` to `/Applications`
+3. Open it and follow the setup guide
+
+**Option B — Build from Source**
+```bash
+git clone https://github.com/yourusername/SidecarSnap.git
+cd SidecarSnap
+./build.sh
+open SidecarSnap.app
+```
+
+### Setup (takes 30 seconds)
+
+> **Step 1** — Connect your iPad via Sidecar (Control Center → Screen Mirroring → your iPad)
+>
+> **Step 2** — Grant Accessibility permission when prompted *(required for mouse tracking)*
+>
+> **Step 3** — That's it. Push your mouse to the screen edge.
+
+---
+
+### Hiding the Menu Bar Icon
+
+SidecarSnap lives in your menu bar as a small icon.
+
+**To hide it:**
+Just click the SidecarSnap menu bar icon and select **"Hide Menu Bar Icon"**.
+
+> *Honestly? We recommend hiding it. The icon is kind of ugly.  
+> We tried. We're developers, not designers. 🤷*
+
+*Note: If you hide the icon and need to change settings later, just re-open the SidecarSnap app from your Applications folder. The icon will reappear!*
+
+---
+
+### Requirements
+
+- macOS 13 (Ventura) or later
+- An iPad that supports Sidecar (iPad Pro, iPad Air, iPad mini 5+, iPad 6th gen+)
+- Both devices logged in with the same Apple ID
+
+### How It Works
+
+```
+NSEvent.addGlobalMonitorForEvents(.mouseMoved)
+    ↓  mouse reaches ≤2px from screen edge
+    ↓  0.5s debounce timer + edge glow progress
+    ↓  CGBeginDisplayConfiguration()
+       CGConfigureDisplayOrigin(sidecarID, newX, 0)
+       CGCompleteDisplayConfiguration(.forSession)
+    ↓  HUD overlay animation
+```
+
+Uses **only public CoreGraphics APIs**. No private frameworks. No kernel extensions. No magic.
+
+---
+
+## License
+
+MIT — free to use, modify, and share.
+
+---
+
+<div align="center">
+
+Built by a MacBook + iPad user who was tired of clicking through System Settings.
+
+**If this saved you time → ⭐ Star it. It means a lot.**
+
+</div>
