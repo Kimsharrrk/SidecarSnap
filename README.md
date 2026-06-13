@@ -135,8 +135,9 @@ Uses **only public CoreGraphics APIs**. No private frameworks. No kernel extensi
 
 ## License
 
-Copyright © 2026 Kimsharrrk. All rights reserved.  
-Free for personal use. Modification and redistribution without permission are strictly prohibited.
+Copyright © 2026 Kimsharrrk. All rights reserved.
+
+Feel free to share and repost as much as you like—I’d love for this to spread far and wide! All I ask is that you clearly credit the source. However, modifications and unauthorized redistribution are strictly prohibited.
 
 ---
 
